@@ -101,7 +101,7 @@ width: 100vmin;
 	.abolish{
 	visibility: visible;
 	font-size: 15vmin;
-	margin: 2em 1em 0 1em;
+	margin-top: 2em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -140,6 +140,33 @@ width: 100vmin;
 	
 		margin: 0;
 
+	}
+
+}
+
+@media only screen and (max-width: 970px){
+
+	.letter-box{
+	
+		transform: scaleY(3);
+		
+	}
+
+	.C{
+		padding-left: 1em;
+	}
+	.L{
+		padding-right: 1em;
+	}
+
+
+
+}
+
+@media only screen and (width: 1280px) and (max-height: 300px) {
+
+	.letter-box{
+		transform: scaleX(6) scaleY(3);
 	}
 
 }
